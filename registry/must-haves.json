@@ -1,0 +1,37 @@
+[
+  {
+    "id": "rest-native",
+    "law": "TS-CORE-072",
+    "name": "REST-native",
+    "cleared": false,
+    "note": "Every app exposes a REST API. The CLI consumes it."
+  },
+  {
+    "id": "clarifythat",
+    "law": "TS-CORE-020",
+    "name": "ClarifyThat",
+    "cleared": false,
+    "note": "Everything produced passes ClarifyThat before it is finished."
+  },
+  {
+    "id": "egg-method",
+    "law": "RL-THAT-RUNTIME-EGG-001",
+    "name": "Egg method",
+    "cleared": false,
+    "note": "Semantic node framework and the Gift Egg. Bootstrap English first."
+  },
+  {
+    "id": "bootstrap-microslice",
+    "law": "TS-CORE-073",
+    "name": "Bootstrap manifest micro-slice",
+    "cleared": false,
+    "note": "Python and Rust out. Bootstrap English in."
+  },
+  {
+    "id": "equity-smooth-road",
+    "law": "RL-SMOOTH-ROAD-001",
+    "name": "Equity and smooth road",
+    "cleared": false,
+    "note": "Four of four. No stage on a broken road."
+  }
+]
