@@ -3,35 +3,63 @@
     "id": "rest-native",
     "law": "TS-CORE-072",
     "name": "REST-native",
-    "cleared": false,
+    "cleared": true,
+    "cleared_date": "2026-10-07",
+    "receipt": "act-v2/docs/receipts/skeleton-closet-must-have-receipts.md#receipt-1",
     "note": "Every app exposes a REST API. The CLI consumes it."
   },
   {
     "id": "clarifythat",
     "law": "TS-CORE-020",
     "name": "ClarifyThat",
-    "cleared": false,
+    "cleared": true,
+    "cleared_date": "2026-10-07",
+    "receipt": "act-v2/docs/receipts/skeleton-closet-must-have-receipts.md#receipt-2",
     "note": "Everything produced passes ClarifyThat before it is finished."
   },
   {
     "id": "egg-method",
     "law": "RL-THAT-RUNTIME-EGG-001",
     "name": "Egg method",
-    "cleared": false,
+    "cleared": true,
+    "cleared_date": "2026-10-07",
+    "receipt": "act-v2/docs/receipts/skeleton-closet-must-have-receipts.md#receipt-3",
     "note": "Semantic node framework and the Gift Egg. Bootstrap English first."
   },
   {
     "id": "bootstrap-microslice",
     "law": "TS-CORE-073",
     "name": "Bootstrap manifest micro-slice",
-    "cleared": false,
+    "cleared": true,
+    "cleared_date": "2026-10-07",
+    "receipt": "act-v2/docs/receipts/skeleton-closet-must-have-receipts.md#receipt-4",
     "note": "Python and Rust out. Bootstrap English in."
   },
   {
     "id": "equity-smooth-road",
-    "law": "RL-SMOOTH-ROAD-001",
+    "law": "RL-SMOOTH-ROOTH-001",
     "name": "Equity and smooth road",
-    "cleared": false,
+    "cleared": true,
+    "cleared_date": "2026-10-07",
+    "receipt": "act-v2/docs/receipts/skeleton-closet-must-have-receipts.md#receipt-5",
     "note": "Four of four. No stage on a broken road."
+  },
+  {
+    "id": "midi-keyboard-nodes",
+    "law": "TS-CORE-089",
+    "name": "MIDI keyboard nodes",
+    "cleared": false,
+    "cleared_date": null,
+    "receipt": null,
+    "note": "Every micro-slice is its own node — push in, pull out, like keys on a MIDI keyboard. Stationary bash code with swappable tokens. Tokens are the nouns; Motif handles nouns, That App Studio handles verbs."
+  },
+  {
+    "id": "bash-first-conversion",
+    "law": "TS-CORE-083",
+    "name": "Bash-first conversion backlog",
+    "cleared": false,
+    "cleared_date": null,
+    "receipt": null,
+    "note": "Nothing has been built in bash yet. All existing micro-slices (Node ports) must be revisited and converted to bash. Notification surfaces in the app on every visit: 'bash conversion pending.'"
   }
 ]
