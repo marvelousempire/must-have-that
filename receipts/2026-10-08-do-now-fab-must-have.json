@@ -1,0 +1,12 @@
+{
+  "id": "2026-10-08-do-now-fab-must-have",
+  "date": "2026-10-08",
+  "must_have": "do-now-fab",
+  "law": "RL-DO-NOW-FAB-001",
+  "action": "added to must-have-that registry with full source code, relations, and tags",
+  "source_repo": "marvelousempire/nephew",
+  "source_path": "scripts/apple/resources/family-office-kit/fo-do-now-fab.js",
+  "source_sha": "ffe04c40e6caf08021913e959b6da1942da00270",
+  "relations": ["operator-chrome-swap-bar", "call-nephew-fab", "fo-fab-stack"],
+  "tags": ["fab", "do-now", "security", "alert-bell", "father-console", "family-office-kit", "must-have", "operator-chrome", "cassette"]
+}

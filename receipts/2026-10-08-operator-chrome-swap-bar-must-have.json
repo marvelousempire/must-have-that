@@ -1,0 +1,12 @@
+{
+  "id": "2026-10-08-operator-chrome-swap-bar-must-have",
+  "date": "2026-10-08",
+  "must_have": "operator-chrome-swap-bar",
+  "law": "TS-CORE-174",
+  "action": "added to must-have-that registry with full source code, relations, and tags",
+  "source_repo": "marvelousempire/nephew",
+  "source_path": "deploy/wp-shared/wp-family-door/includes/operator-chrome.php",
+  "source_sha": "9e2b90f1fd4ef9af301a41a46bf66f57120da4de",
+  "relations": ["do-now-fab", "call-nephew-fab", "fleet-hud-card-toggle"],
+  "tags": ["wordpress", "operator", "swap-bar", "front-admin", "no-signin", "pill", "family-door", "wp-single", "wp-multisite", "must-have", "operator-chrome"]
+}

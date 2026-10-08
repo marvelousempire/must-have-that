@@ -1,0 +1,12 @@
+{
+  "id": "2026-10-08-call-nephew-fab-must-have",
+  "date": "2026-10-08",
+  "must_have": "call-nephew-fab",
+  "law": "RL-NEPHEW-PAD-001",
+  "action": "added to must-have-that registry with full source code, relations, and tags",
+  "source_repo": "marvelousempire/nephew",
+  "source_path": "scripts/apple/resources/family-office-kit/fo-nephew-pad.js",
+  "source_sha": "f6fa608e613c97530442ff4d7a116e972686e922",
+  "relations": ["operator-chrome-swap-bar", "do-now-fab", "fo-fab-stack"],
+  "tags": ["fab", "nephew-pad", "hello", "chat", "copilot", "voice", "vision", "father-console", "family-office-kit", "must-have", "operator-chrome"]
+}
