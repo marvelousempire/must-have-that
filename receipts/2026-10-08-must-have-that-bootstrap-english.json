@@ -1,0 +1,7 @@
+{
+  "id": "2026-10-08-must-have-that-bootstrap-english",
+  "law": "TS-CORE-073",
+  "what": "Added a bootstrap_english column to every row of registry/must-haves.json — all ten must-haves, cleared and open. Updated README to name all eight filed must-haves plus the two open ones.",
+  "files": ["registry/must-haves.json", "README.md"],
+  "count": 10
+}
