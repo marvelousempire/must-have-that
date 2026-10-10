@@ -113,5 +113,25 @@
     "tags": ["fab", "nephew-pad", "hello", "chat", "copilot", "voice", "vision", "father-console", "family-office-kit", "must-have", "operator-chrome"],
     "description": "In-product Hello Nephew pad. Auto-mounts a Call Nephew FAB into the fo-fab-stack on every Father projection, or opens via Command-semicolon or any [data-nephew-pad-open] control. Phases: text chat via Hello/tower brain, product drive via window.NephewDrive, voice via MediaRecorder, vision via camera/screen/drop/paste with OCR, Four Suits via fo-nephew-suits.js. Copilot modes: ask, plan, act. Default load shell is the Resident Agent — same DNA as the Hello cassette and Code Page. Component id briefcase.fab, variant fo-nephew-pad. The corner FAB was retired in Clinic 9958 in favor of the floor Hello Nephew control; legacy .fo-nephew-pad-fab mounts are hidden by CSS.",
     "bootstrap_english": "BOOTSTRAP ENGLISH — Call Nephew FAB (RL-NEPHEW-PAD-001)\n\nThe Hello Nephew pad auto-mounts into the FAB stack on every Father projection. It also opens with Command-semicolon or any data-nephew-pad-open control.\n\nPhases: text chat through the Hello tower brain. Product drive through window.NephewDrive. Voice through MediaRecorder. Vision through camera, screen, drop, or paste with OCR. Four Suits through fo-nephew-suits.js.\n\nCopilot modes: ask, plan, act. The default load shell is the Resident Agent, same DNA as the Hello cassette and Code Page.\n\nThe corner FAB was retired in Clinic 9958. The floor Hello Nephew control is the current door. Legacy mounts are hidden by CSS."
+  },
+  {
+    "id": "schema-driven-ui",
+    "law": "TS-CORE-SCHEMA-UI",
+    "name": "Schema-driven UI",
+    "cleared": false,
+    "cleared_date": null,
+    "receipt": null,
+    "note": "Read REST index and Abilities schemas to generate control cards automatically. No hand-coded endpoint UIs.",
+    "bootstrap_english": "BOOTSTRAP ENGLISH — Schema-driven UI\n\nRead the schema. Generate the card. Do not hand-build the UI for each endpoint.\n\nThe REST index lists the routes. The Abilities API carries the input and output schemas. The client emits the controls.\n\nCabinet Kitchen stores the generated parts. Automata engine room toggles them."
+  },
+  {
+    "id": "crud-floor",
+    "law": "TS-CORE-CRUD",
+    "name": "CRUD floor",
+    "cleared": false,
+    "cleared_date": null,
+    "receipt": null,
+    "note": "CRUD where the schema supports it. REST is the guaranteed floor for every engine.",
+    "bootstrap_english": "BOOTSTRAP ENGLISH — CRUD floor\n\nCRUD where it applies. REST always.\n\nIf the endpoint supports create, read, update, delete, the client offers those methods. If not, REST is still the door.\n\nNo engine ships without a REST surface. The CLI consumes the REST."
   }
 ]
