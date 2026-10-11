@@ -1,0 +1,169 @@
+{
+  "schema_id": "must-have-that.hierarchical-catalog/v1",
+  "status": "requirements-recorded-not-commissioned",
+  "recorded_at": "2026-10-11",
+  "canonical_registry": "registry/must-haves.json",
+  "policy": "reference canonical registry; do not replace or reclassify existing cleared states",
+  "breadcrumb": [
+    "Must Haves",
+    "Architecture",
+    "Automata",
+    "Global",
+    "Page",
+    "Concept",
+    "Section",
+    "Container",
+    "Feature",
+    "Module",
+    "Row",
+    "Element"
+  ],
+  "dimensions": {
+    "scope": [
+      "global",
+      "app",
+      "page",
+      "concept",
+      "section",
+      "container",
+      "feature",
+      "module",
+      "row",
+      "element"
+    ],
+    "status": [
+      "requested",
+      "cck-pending",
+      "contracted",
+      "implemented",
+      "source-tested",
+      "runtime-witnessed",
+      "commissioned"
+    ],
+    "visibility": [
+      "private-admin",
+      "audience-approved",
+      "public",
+      "not-published"
+    ]
+  },
+  "inheritance": "General requirements apply to all descendants unless explicitly superseded by approved owner-specific policy. No lower-level record may remove a security/CCK requirement.",
+  "records": [
+    {
+      "id": "MHT-AUT-ARCH-001",
+      "title": "Independent runtime engine and presentation",
+      "path": [
+        "Must Haves",
+        "Architecture",
+        "Automata",
+        "Global"
+      ],
+      "status": "cck-pending",
+      "requirement": "Automata headless power remains independent of appearance and Suit. Changing a face does not restart services."
+    },
+    {
+      "id": "MHT-AUT-ARCH-002",
+      "title": "Private control tower and selective frontend publication",
+      "path": [
+        "Must Haves",
+        "Architecture",
+        "Automata",
+        "Global"
+      ],
+      "status": "cck-pending",
+      "requirement": "Private administration distinct from published frontend; each element requires server-side permission and per-audience publication contract."
+    },
+    {
+      "id": "MHT-AUT-ARCH-003",
+      "title": "Independent backend extension/plugin lifecycle",
+      "path": [
+        "Must Haves",
+        "Architecture",
+        "Automata",
+        "Global"
+      ],
+      "status": "cck-pending",
+      "requirement": "Discover, register, enable, disable, upgrade, uninstall and rollback backend capability extensions with dependency, authority and proof."
+    },
+    {
+      "id": "MHT-AUT-ARCH-004",
+      "title": "Independent frontend extension/plugin lifecycle",
+      "path": [
+        "Must Haves",
+        "Architecture",
+        "Automata",
+        "Global"
+      ],
+      "status": "cck-pending",
+      "requirement": "View/furniture extensions cannot silently acquire backend rights; typed capability bindings required."
+    },
+    {
+      "id": "MHT-AUT-ARCH-005",
+      "title": "Independent ACT face, skin and layout switches",
+      "path": [
+        "Must Haves",
+        "Architecture",
+        "Automata",
+        "Global"
+      ],
+      "status": "cck-pending",
+      "requirement": "ACT dashboard, FastLook, Hello and Father/Pocket source-owned faces selectable without duplicating engine, with persistent layout/skin and accessibility proof."
+    },
+    {
+      "id": "MHT-AUT-PAGE-001",
+      "title": "Page-to-element drill-down and inherited obligations",
+      "path": [
+        "Must Haves",
+        "Architecture",
+        "Automata",
+        "Page"
+      ],
+      "status": "cck-pending",
+      "requirement": "Catalog traverses app/global > page > concept > section > container > feature > module > row > element with stable IDs, CCK linkage, status, receipts, and visible breadcrumbs."
+    },
+    {
+      "id": "MHT-AUT-PAGE-002",
+      "title": "ACT selector in existing rail",
+      "path": [
+        "Must Haves",
+        "Architecture",
+        "Automata",
+        "Page",
+        "Concept",
+        "Section",
+        "Container",
+        "Feature",
+        "Module",
+        "Row",
+        "Element"
+      ],
+      "status": "requested",
+      "requirement": "Inspect real Automata rail and existing control identity before assigning a face-selector button; do not invent an icon or live binding."
+    }
+  ],
+  "record_contract": {
+    "required": [
+      "id",
+      "title",
+      "path",
+      "status",
+      "requirement"
+    ],
+    "extension_required_for_gate": [
+      "source_owner",
+      "cck_id",
+      "cck_version",
+      "source_revision",
+      "verification_receipt",
+      "permissions",
+      "audience",
+      "acceptance_test"
+    ],
+    "no_fabricated_evidence": true
+  },
+  "sources": [
+    "https://github.com/marvelousempire/must-have-that/blob/main/registry/must-haves.json",
+    "https://github.com/marvelousempire/nephew/blob/main/plans/0589-briefcase-shell-atlas-zone-ids.md",
+    "https://github.com/marvelousempire/automata/blob/main/docs/architecture/MANDATORY-MODULAR-PLATFORM-SEPARATION-2026-10-11.md"
+  ]
+}
