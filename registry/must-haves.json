@@ -133,5 +133,52 @@
     "receipt": null,
     "note": "CRUD where the schema supports it. REST is the guaranteed floor for every engine.",
     "bootstrap_english": "BOOTSTRAP ENGLISH — CRUD floor\n\nCRUD where it applies. REST always.\n\nIf the endpoint supports create, read, update, delete, the client offers those methods. If not, REST is still the door.\n\nNo engine ships without a REST surface. The CLI consumes the REST."
+  },
+  {
+    "id": "governed-learning-cms",
+    "law": "RL-GOVERNED-LEARNING-CMS-001",
+    "name": "Governed learning through the CMS",
+    "cleared": false,
+    "cleared_date": null,
+    "receipt": null,
+    "note": "The CMS and Hybrid CCK track every durable teaching, knowledge, dataset, training, evaluation, adapter, promotion, rollback and receipt through authenticated REST CRUD/archive reach and exact input-to-output lineage.",
+    "source_path": "laws/RL-GOVERNED-LEARNING-CMS-001.md",
+    "relations": ["rest-native", "crud-floor", "schema-driven-ui", "egg-method", "call-nephew-fab"],
+    "tags": ["cms", "hybrid-cck", "rest", "crud", "teaching", "knowledge", "dataset", "training", "lora", "qlora", "evaluation", "promotion", "rollback", "hermesthat", "hello", "act-v4"],
+    "required_records": ["teaching", "knowledge-source", "knowledge-snapshot", "dataset", "training-run", "evaluation", "adapter", "promotion", "rollback", "receipt"],
+    "required_states": ["draft", "reviewed", "candidate", "failed", "accepted", "active", "superseded", "revoked", "rolled-back"],
+    "verification": [
+      "REST discovery and schemas name every permitted method and permission",
+      "authorized create/read/update/archive round trips and unauthorized refusal are receipted",
+      "teaching-to-cited-knowledge lineage preserves source and Family scope",
+      "dataset snapshot excludes revoked or unauthorized sources",
+      "frozen base plus exact adapter dataset recipe configuration machine and output hashes read back",
+      "task quality safety approval memory skill recovery hardware-fit and regression evaluations pass",
+      "promotion is separate from training and rollback restores the prior active route",
+      "each installed face and machine reports owner-supplied engine and model truth",
+      "source merge CMS training installation and live-use receipts remain separate",
+      "complete lineage is reconstructable without exposing secrets or private payloads"
+    ],
+    "bootstrap_english": "BOOTSTRAP ENGLISH — Governed learning through the CMS (RL-GOVERNED-LEARNING-CMS-001)\n\nThe Family teaches once. The CMS keeps the durable truth. Every authorized agent and Suit uses the same current version.\n\nKeep Teachings, Knowledge Sources, Knowledge Snapshots, Datasets, Training Runs, Evaluations, Adapters, Promotions, Rollbacks and Receipts as different linked records. Every permitted durable input and output has authenticated REST create, read, update and archive reach.\n\nKnowledge stays editable and citable. Training is a dated projection, never the only copy. Every adapter names its exact frozen base, dataset snapshot, recipe, configuration, source revisions, machine and output hash. LoRA and QLoRA are different versions.\n\nTrain beside production. Promote separately. Prove refusal, recovery and rollback. Secrets and private payloads stay with their secure owners; the CMS tracks safe metadata and owner references. Nothing is active merely because it trained or built."
+  },
+  {
+    "id": "founder-language-exact-truth",
+    "law": "RL-FOUNDER-LANGUAGE-001",
+    "name": "Founder language with exact truth",
+    "cleared": false,
+    "cleared_date": null,
+    "receipt": null,
+    "note": "Explain purpose, human meaning, input, output, owner, proof and next action in every requirement, README, marketing statement, app label, state and receipt summary while preserving exact technical identity.",
+    "source_path": "laws/RL-FOUNDER-LANGUAGE-001.md",
+    "relations": ["clarifythat", "governed-learning-cms", "schema-driven-ui"],
+    "tags": ["founder-language", "bootstrap-english", "readme", "marketing", "ui-copy", "labels", "receipts", "truth"],
+    "verification": [
+      "README current-state marketing and affected UI copy preserve one meaning",
+      "plain labels expose exact technical names in detail or receipt views",
+      "loading empty blocked failed recovered and completed states name owner and next action",
+      "source-only installed and live states remain distinct",
+      "each affected Suit has independent content and runtime review"
+    ],
+    "bootstrap_english": "BOOTSTRAP ENGLISH — Founder language with exact truth (RL-FOUNDER-LANGUAGE-001)\n\nExplain why it matters to the Family. Say what goes in, what comes out, who owns it, how we proved it and what happens next.\n\nUse plain labels people understand. Keep the exact technical name, version, owner and receipt close enough to inspect.\n\nClear language never turns planned into live, hides a failure, or borrows another owner's authority."
   }
 ]

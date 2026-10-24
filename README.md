@@ -23,6 +23,8 @@ A must-have is not a wish. An app is not finished until every must-have below ha
 
 9. **MIDI keyboard nodes (TS-CORE-089).** Every micro-slice is its own node — push in, pull out, like keys on a MIDI keyboard. Stationary bash code with swappable tokens. Tokens are the nouns; Motif handles nouns, That App Studio handles verbs.
 10. **Bash-first conversion backlog (TS-CORE-083).** Nothing has been built in bash yet. All existing micro-slices (Node ports) must be revisited and converted to bash. Notification surfaces in the app on every visit: "bash conversion pending."
+11. **Governed learning through the CMS (RL-GOVERNED-LEARNING-CMS-001).** Teachings, knowledge, datasets, training runs, evaluations, adapters, promotions, rollbacks and receipts are distinct, versioned Hybrid CCK records. The CMS exposes authenticated REST create/read/update/archive reach for every permitted durable input and output. Training never becomes the sole copy of Family knowledge, and no model or adapter becomes active without exact lineage, evaluation, approval, rollback and installed live proof.
+12. **Founder language with exact truth (RL-FOUNDER-LANGUAGE-001).** Every requirement, README, marketing statement, app label, empty state, status and receipt summary explains purpose, human meaning, input, output, owner, proof and next action. Plain language never hides exact technical identity or turns an open gate into a live claim.
 
 ## Bootstrap English
 
